@@ -1,21 +1,25 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Books from "./pages/Books";
-import Detail from "./pages/Detail";
+import AboutMe from "./pages/AboutMe";
+import Portfolio from "./pages/Portfolio";
+import Splash from "./pages/Splash";
 import NoMatch from "./pages/NoMatch";
-import Nav from "./components/Nav";
+import Navigation from "./components/Nav";
 
 function App() {
   return (
     <Router>
       <div>
-        <Nav />
+        <Navigation />
         <Switch>
-          <Route exact path={["/", "/books"]}>
-            <Books />
+          <Route exact path={["/", "/home"]}>
+            <Splash />
           </Route>
-          <Route exact path="/books/:id">
-            <Detail />
+          <Route exact path="/aboutme">
+            <AboutMe />
+          </Route>
+          <Route exact path="/portfolio">
+            <Portfolio />
           </Route>
           <Route>
             <NoMatch />

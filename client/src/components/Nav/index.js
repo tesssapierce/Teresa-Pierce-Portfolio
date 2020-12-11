@@ -1,13 +1,20 @@
 import React from "react";
+import * as ReactBootstrap from "react-bootstrap";
 
-function Nav() {
+function Navigation() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a className="navbar-brand" href="/">
-        React Reading List
-      </a>
-    </nav>
+<ReactBootstrap.Navbar bg="light" expand="lg">
+  <ReactBootstrap.Navbar.Brand href="#home">TERESA PIERCE</ReactBootstrap.Navbar.Brand>
+  <ReactBootstrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <ReactBootstrap.Navbar.Collapse id="basic-navbar-nav">
+    <ReactBootstrap.Nav className="mr-auto">
+      <ReactBootstrap.Nav.Link href="/">home</ReactBootstrap.Nav.Link>
+      <ReactBootstrap.Nav.Link href="/portfolio">portfolio</ReactBootstrap.Nav.Link>
+      <ReactBootstrap.Nav.Link href="/aboutme">about me</ReactBootstrap.Nav.Link>
+    </ReactBootstrap.Nav>
+  </ReactBootstrap.Navbar.Collapse>
+</ReactBootstrap.Navbar>
   );
 }
 
-export default Nav;
+export default Navigation;
