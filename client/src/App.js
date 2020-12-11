@@ -5,6 +5,8 @@ import Portfolio from "./pages/Portfolio";
 import Splash from "./pages/Splash";
 import NoMatch from "./pages/NoMatch";
 import Navigation from "./components/Nav";
+import Contact from "./pages/Contact"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -21,10 +23,14 @@ function App() {
           <Route exact path="/portfolio">
             <Portfolio />
           </Route>
+          <Route exact path="/contact">
+            <Contact />
+          </Route>
           <Route>
             <NoMatch />
           </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
