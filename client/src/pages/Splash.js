@@ -5,6 +5,7 @@ function Splash() {
 
     return (
       <>
+      wow this is empty
       </>
     );
   }
