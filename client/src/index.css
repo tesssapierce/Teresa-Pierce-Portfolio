@@ -1,3 +1,72 @@
+/* CONTACT PAGE */
+
+.contactPage{
+  overflow: hidden;
+}
+.contactForm{
+  padding: 20px;
+
+}
+
+.contactH3 {
+  text-align: center
+}
+
+.contactBtn {
+  background-color: #8eb2af !important;
+}
+
+.resumeBtn {
+  background-color: #8eb2af !important;
+  cursor: pointer;
+  border: 0px;
+  margin: .375rem;
+  padding: .84rem 2.14rem;
+}
+
+.contactTop {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.react-pdf__Page__canvas{
+  margin: 0 auto;
+}
+
+.contactLinks{
+  padding-bottom: 20px;
+}
+
+.contactImg{
+  text-align: center;
+  color: black;
+  margin: 5px;  
+}
+
+.iconLink{
+  color: black;
+}
+
+.iconLink:hover{
+  color: #a7a7a7;
+}
+
+.formLabel{
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.formInput{
+  height: 3rem;
+  width: 35rem;
+}
+
+.formText{
+  height: 35rem;
+  width: 35rem;
+}
+
 /* PORTFOLIO PAGE */
 
 .portfolioHeader{
@@ -119,6 +188,30 @@
   .portfolioDeck{
     padding: 10px;
   }
+
+  .react-pdf__Page__canvas{
+    margin: -8.5rem;
+    transform: scale(.5);
+  }
+
+  .contactForm{
+    width: 50%;
+  }
+
+  .formLabel{
+    font-size: 1rem;
+  }
+
+  .formInput{
+    height: 2rem;
+    width: 20rem;
+    margin-bottom: 10px;
+  }
+  
+  .formText{
+    height: 20rem;
+    width: 20rem;
+  }
 }
 
 /* TABLET */
@@ -156,9 +249,5 @@
 
   .spashSection{
     padding-bottom: 10rem;
-  }
-
-  .portfolioFooter{
-    
   }
 }
