@@ -9,6 +9,15 @@
   margin: 20px !important;
 }
 
+.techImg{
+  transform: scale(2);
+  margin: 0px 10px;
+}
+
+.portfolioDeck{
+  padding: 30px;
+}
+
 /* SPLASH PAGE */
 
 .splashMain {
@@ -106,6 +115,9 @@
 @media only screen and (max-width: 1024px) {
   .footerSection {
     position: inherit;
+  }
+  .portfolioDeck{
+    padding: 10px;
   }
 }
 

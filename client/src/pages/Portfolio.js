@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import * as ReactBootstrap from "react-bootstrap";
 import {DiBootstrap, DiHeroku, DiJavascript1, DiMongodb, DiJqueryUiLogo, DiMysql, DiNodejsSmall, DiNpm, DiReact } from "react-icons/di"
 import "../index.css"
+import shakeitupgif from "../images/shakeitup_gif_1.gif"
+import bookshelfgif from "../images/bookshelf_gif_1.gif"
+import mealmatchergif from "../images/mealmatcher_gif_1.gif"
 
 function Portfolio() {
 
@@ -10,31 +13,31 @@ function Portfolio() {
     <>
     <h3 className="portfolioHeader">check out my work</h3>
       {/* This is the first row of cards */}
-        <ReactBootstrap.CardDeck>
+        <ReactBootstrap.CardDeck className="portfolioDeck">
           <ReactBootstrap.Card className="portfolioCard">
-            <ReactBootstrap.Card.Img variant="top" src="holder.js/100px160" />
+            <ReactBootstrap.Card.Img variant="top" src={shakeitupgif} />
             <ReactBootstrap.Card.Body>
               <ReactBootstrap.Card.Title>Shake It Up</ReactBootstrap.Card.Title>
               <ReactBootstrap.Card.Text>
-              Shake It Up is a full stack (MERN) that allows users to randomly select from different categories. The user can also decide to shake again if they draw an activity they do not like. Additional features include creating a custom category, adding new activities, delete and update activities, and login with a secure authentication.  This application uses React, MongoDB and Mongoose, Node JS, and Express Routers.
+              Shake It Up is a full stack (MERN) application that allows users to randomly select an item from different categories. The user can also decide to shake again if they draw an item they do not like. Additional features include creating a custom category, adding new activities, delete and update activities, and login with a secure authentication.  This application uses React, MongoDB and Mongoose, Node JS, and Express Routers.
               </ReactBootstrap.Card.Text>
               <ReactBootstrap.Card.Link rel="noopener noreferrer" target="_blank" href="https://github.com/Kanilionis/MasonJar">repository</ReactBootstrap.Card.Link>
               <ReactBootstrap.Card.Link rel="noopener noreferrer" target="_blank" href="https://shake-it-up.herokuapp.com/">live</ReactBootstrap.Card.Link>
             </ReactBootstrap.Card.Body>
             <ReactBootstrap.Card.Footer>
               <>
-              <DiReact />
-              <DiJavascript1 />
-              <DiBootstrap />
-              <DiHeroku />
-              <DiMongodb />
-              <DiNodejsSmall />
-              <DiNpm />
+              <DiReact className="techImg"/>
+              <DiJavascript1 className="techImg"/>
+              <DiBootstrap className="techImg"/>
+              <DiHeroku className="techImg"/>
+              <DiMongodb className="techImg"/>
+              <DiNodejsSmall className="techImg"/>
+              <DiNpm className="techImg"/>
               </>
             </ReactBootstrap.Card.Footer>
           </ReactBootstrap.Card>
           <ReactBootstrap.Card className="portfolioCard">
-            <ReactBootstrap.Card.Img variant="top" src="holder.js/100px160" />
+            <ReactBootstrap.Card.Img variant="top" src={bookshelfgif} />
             <ReactBootstrap.Card.Body>
               <ReactBootstrap.Card.Title>BookShelf</ReactBootstrap.Card.Title>
               <ReactBootstrap.Card.Text>
@@ -45,18 +48,18 @@ function Portfolio() {
             </ReactBootstrap.Card.Body>
             <ReactBootstrap.Card.Footer>
               <>
-              <DiJavascript1 />
-              <DiBootstrap />
-              <DiHeroku />
-              <DiMysql />
-              <DiNodejsSmall />
-              <DiNpm />
-              <DiJqueryUiLogo />
+              <DiJavascript1 className="techImg"/>
+              <DiBootstrap className="techImg"/>
+              <DiHeroku className="techImg"/>
+              <DiMysql className="techImg"/>
+              <DiNodejsSmall className="techImg"/>
+              <DiNpm className="techImg"/>
+              <DiJqueryUiLogo className="techImg"/>
               </>
             </ReactBootstrap.Card.Footer>
           </ReactBootstrap.Card>
           <ReactBootstrap.Card className="portfolioCard">
-            <ReactBootstrap.Card.Img variant="top" src="holder.js/100px160" />
+            <ReactBootstrap.Card.Img variant="top" src={mealmatchergif}/>
             <ReactBootstrap.Card.Body>
               <ReactBootstrap.Card.Title>Meal Matchers</ReactBootstrap.Card.Title>
               <ReactBootstrap.Card.Text>
@@ -67,16 +70,16 @@ function Portfolio() {
             </ReactBootstrap.Card.Body>
             <ReactBootstrap.Card.Footer>
             <>
-              <DiJavascript1 />
-              <DiBootstrap />
-              <DiJqueryUiLogo />
+              <DiJavascript1 className="techImg"/>
+              <DiBootstrap className="techImg"/>
+              <DiJqueryUiLogo className="techImg"/>
               </>
             </ReactBootstrap.Card.Footer>
           </ReactBootstrap.Card>
         </ReactBootstrap.CardDeck>
 
         {/* This is the second row of cards */}
-        <ReactBootstrap.CardDeck>
+        <ReactBootstrap.CardDeck className="portfolioDeck">
           <ReactBootstrap.Card className="portfolioCard">
             <ReactBootstrap.Card.Img variant="top" src="holder.js/100px160" />
             <ReactBootstrap.Card.Body>
@@ -89,9 +92,9 @@ function Portfolio() {
             </ReactBootstrap.Card.Body>
             <ReactBootstrap.Card.Footer>
             <>
-              <DiJavascript1 />
-              <DiBootstrap />
-              <DiJqueryUiLogo />
+              <DiJavascript1 className="techImg"/>
+              <DiBootstrap className="techImg"/>
+              <DiJqueryUiLogo className="techImg"/>
               </>
             </ReactBootstrap.Card.Footer>
           </ReactBootstrap.Card>
@@ -107,10 +110,10 @@ function Portfolio() {
             </ReactBootstrap.Card.Body>
             <ReactBootstrap.Card.Footer>
             <>
-              <DiReact />
-              <DiJavascript1 />
-              <DiBootstrap />
-              <DiHeroku />
+              <DiReact className="techImg"/>
+              <DiJavascript1 className="techImg"/>
+              <DiBootstrap className="techImg"/>
+              <DiHeroku className="techImg"/>
               </>
             </ReactBootstrap.Card.Footer>
           </ReactBootstrap.Card>
@@ -125,8 +128,8 @@ function Portfolio() {
             </ReactBootstrap.Card.Body>
             <ReactBootstrap.Card.Footer>
             <>
-              <DiJavascript1 />
-              <DiNodejsSmall />
+              <DiJavascript1 className="techImg"/>
+              <DiNodejsSmall className="techImg"/>
               </>
             </ReactBootstrap.Card.Footer>
           </ReactBootstrap.Card>
