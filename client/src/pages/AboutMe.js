@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import image from "../images/Tessa.jpg"
 import "../index.css"
+import Footer from "../components/Footer"
 
 function AboutMe() {
  
@@ -19,6 +20,7 @@ function AboutMe() {
           </div>
         </div>
       </div>
+      <Footer />
       </>
     );
   }

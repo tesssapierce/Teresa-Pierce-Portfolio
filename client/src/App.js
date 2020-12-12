@@ -6,7 +6,6 @@ import Splash from "./pages/Splash";
 import NoMatch from "./pages/NoMatch";
 import Navigation from "./components/Nav";
 import Contact from "./pages/Contact"
-import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -30,7 +29,6 @@ function App() {
             <NoMatch />
           </Route>
         </Switch>
-        <Footer />
       </div>
     </Router>
   );

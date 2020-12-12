@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import * as ReactBootstrap from "react-bootstrap";
 import "../index.css"
+import Footer from "../components/Footer"
 
 function Contact() {
 
@@ -38,6 +39,7 @@ function Contact() {
           Submit
         </ReactBootstrap.Button>
       </ReactBootstrap.Form>
+      <Footer />
     </>
   );
 }
