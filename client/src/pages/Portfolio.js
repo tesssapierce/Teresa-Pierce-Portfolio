@@ -5,6 +5,9 @@ import "../index.css"
 import shakeitupgif from "../images/shakeitup_gif_1.gif"
 import bookshelfgif from "../images/bookshelf_gif_1.gif"
 import mealmatchergif from "../images/mealmatcher_gif_1.gif"
+import employeedirectorygif from "../images/employeedirectory_gif_1.gif"
+import weatherdashboardjpg from "../images/weatherdashboard_jpg.jpg"
+import employeemanagerjpg from "../images/employeemanager_jpg.jpg"
 import Footer from "../components/Footer"
 
 function Portfolio() {
@@ -82,7 +85,7 @@ function Portfolio() {
         {/* This is the second row of cards */}
         <ReactBootstrap.CardDeck className="portfolioDeck">
           <ReactBootstrap.Card className="portfolioCard">
-            <ReactBootstrap.Card.Img variant="top" src="holder.js/100px160" />
+            <ReactBootstrap.Card.Img variant="top" src={weatherdashboardjpg} />
             <ReactBootstrap.Card.Body>
               <ReactBootstrap.Card.Title>Weather Dashboard</ReactBootstrap.Card.Title>
               <ReactBootstrap.Card.Text>
@@ -100,14 +103,14 @@ function Portfolio() {
             </ReactBootstrap.Card.Footer>
           </ReactBootstrap.Card>
           <ReactBootstrap.Card className="portfolioCard">
-            <ReactBootstrap.Card.Img variant="top" src="holder.js/100px160" />
+            <ReactBootstrap.Card.Img variant="top" src={employeedirectorygif} />
             <ReactBootstrap.Card.Body>
               <ReactBootstrap.Card.Title>Employee Directory</ReactBootstrap.Card.Title>
               <ReactBootstrap.Card.Text>
                 This Employee Directory is a front end application that utilizes React JS and JSON to allow a user to search a list of employees.  This application will render all users on search in a seamless experience.
               </ReactBootstrap.Card.Text>
               <ReactBootstrap.Card.Link href="https://github.com/tesssapierce/Employee-Directory-React-JS">repository</ReactBootstrap.Card.Link>
-              <ReactBootstrap.Card.Link href="https://rocky-gorge-76644.herokuapp.com/">demo</ReactBootstrap.Card.Link>
+              <ReactBootstrap.Card.Link href="https://employee-directory-react-js.herokuapp.com/">demo</ReactBootstrap.Card.Link>
             </ReactBootstrap.Card.Body>
             <ReactBootstrap.Card.Footer>
             <>
@@ -119,11 +122,11 @@ function Portfolio() {
             </ReactBootstrap.Card.Footer>
           </ReactBootstrap.Card>
           <ReactBootstrap.Card className="portfolioCard">
-            <ReactBootstrap.Card.Img variant="top" src="holder.js/100px160" />
+            <ReactBootstrap.Card.Img variant="top" src={employeemanagerjpg} />
             <ReactBootstrap.Card.Body>
               <ReactBootstrap.Card.Title>Employee Management System</ReactBootstrap.Card.Title>
               <ReactBootstrap.Card.Text>
-                This back end application utilizes Node JS for a user to add, delete, or update employees.
+                This back end application utilizes Node JS and MySQL for a user to add, delete, or update employees in their database.
               </ReactBootstrap.Card.Text>
               <ReactBootstrap.Card.Link href="https://github.com/tesssapierce/Employee-Tracker-Node-JS-mySQL">repository</ReactBootstrap.Card.Link>
             </ReactBootstrap.Card.Body>
@@ -131,11 +134,14 @@ function Portfolio() {
             <>
               <DiJavascript1 className="techImg"/>
               <DiNodejsSmall className="techImg"/>
+              <DiMysql className="techImg"/>
               </>
             </ReactBootstrap.Card.Footer>
           </ReactBootstrap.Card>
         </ReactBootstrap.CardDeck>
+        <div className="portfolioFooter">
         <Footer />
+        </div>
       </>
     );
 }
