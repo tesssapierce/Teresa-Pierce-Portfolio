@@ -28,7 +28,7 @@ function AboutMe() {
               <ReactBootstrap.Button href="/photography" variant="link" className="contactBtn">Photography</ReactBootstrap.Button>
             </div>
             <p>I have specialized as a photographer since 2013, photographing newborns, families, weddings, and portraits.  I work with a Canon 5d Mark iii and Canon 5d Mark ii, ask me about my lenses!  I'm fluent in Adobe Creative Cloud Suite, specifically with Adobe Photoshop.</p>
-            <p>I live in Lakewood, Colorado with my partner, Patrick, and our 4 pets: Benjamin, Cece, Ollie, and Nora.  I love to foster animals, go camping, play video games, create music and artwork, and my favorite, code.</p>
+            <p>I live in Lakewood, Colorado with my partner, Patrick, and our 4 pets: Benjamin, Cece, Ollie, and Nora.  I love to foster animals, go camping, play video games, create music and artwork, and my favorite: code.</p>
             <div className="aboutBtns">
               <ReactBootstrap.Button href="/contact" variant="link" className="contactBtn">Get In Contact</ReactBootstrap.Button>
             </div>

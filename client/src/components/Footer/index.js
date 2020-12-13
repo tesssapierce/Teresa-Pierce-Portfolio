@@ -14,8 +14,9 @@ const Footer = () => {
           </MDBCol>
           <MDBCol md="6">
             <h5 className="title">Links</h5>
-                <a className="footerLinks" href="/portfolio">portfolio</a>
                 <a className="footerLinks" href="/aboutme">about me</a>
+                <a className="footerLinks" href="/portfolio">portfolio</a>
+                <a className="footerLinks" href="/photography">photography</a>
                 <a className="footerLinks" href="/contact">contact</a>
           </MDBCol>
         </MDBRow>
