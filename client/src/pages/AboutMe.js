@@ -35,6 +35,7 @@ function AboutMe() {
           </div>
           <div className="col-12 col-md-6 contactTop">
             <Pdf />
+            <ReactBootstrap.Button href="https://drive.google.com/file/d/1TTT7hcsT2mjNQT4RpYz1GMsbG2dzKVlv/view?usp=sharing" rel="noopener noreferrer" target="_blank"  variant="link" className="contactBtn">Download Resume</ReactBootstrap.Button>
           </div>
         </div>
       </div>
