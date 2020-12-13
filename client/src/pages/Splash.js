@@ -26,7 +26,7 @@ function Splash() {
           about me
             </div>
         <div className="splashBtn from-left" onClick={() => { handleClick("portfolio") }}>
-          development
+          development portfolio
             </div>
         <div className="splashBtn from-left" onClick={() => { handleClick("photography") }}>
           photography

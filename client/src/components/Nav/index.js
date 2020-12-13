@@ -9,7 +9,7 @@ function Navigation() {
   <ReactBootstrap.Navbar.Collapse id="basic-navbar-nav">
     <ReactBootstrap.Nav className="mr-auto">
       <ReactBootstrap.Nav.Link href="/aboutme">about me</ReactBootstrap.Nav.Link>
-      <ReactBootstrap.Nav.Link href="/portfolio">portfolio</ReactBootstrap.Nav.Link>
+      <ReactBootstrap.Nav.Link href="/portfolio">development portfolio</ReactBootstrap.Nav.Link>
       <ReactBootstrap.Nav.Link href="/photography">photography</ReactBootstrap.Nav.Link>
       <ReactBootstrap.Nav.Link href="/contact">contact</ReactBootstrap.Nav.Link>
     </ReactBootstrap.Nav>

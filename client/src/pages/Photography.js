@@ -9,7 +9,7 @@ function Photography() {
 
   return (
     <>
-      <div className="container aboutme">
+      <div className="container portfolioHeader">
         <div className="row">
           <div className="col-12">
             <h2>photography</h2>
