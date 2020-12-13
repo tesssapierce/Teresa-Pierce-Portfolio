@@ -9,13 +9,23 @@ import employeedirectorygif from "../images/employeedirectory_gif_1.gif"
 import weatherdashboardjpg from "../images/weatherdashboard_jpg.jpg"
 import employeemanagerjpg from "../images/employeemanager_jpg.jpg"
 import Footer from "../components/Footer"
+import { FaGithub } from "react-icons/fa";
 
 function Portfolio() {
 
 
   return (
     <>
-    <h3 className="portfolioHeader">check out my work</h3>
+    <div className="portfolioHeader">
+    <h1>full stack developer portfolio</h1>
+    <p>I am proficient in HTML, CSS, Bootstrap, Javascript, ES6, Node JS, Express, React JS, MySQL, NoSQL, MongoDB, Mongoose, Sequelize, and much more.</p>
+    <div className="contactImg">
+          <a className="iconLink" href="https://www.github.com/tesssapierce" rel="noopener noreferrer" target="_blank">
+            <FaGithub size={60}/>
+          </a>
+    </div>
+    <p>check out my work below:</p>
+    </div>
       {/* This is the first row of cards */}
         <ReactBootstrap.CardDeck className="portfolioDeck">
           <ReactBootstrap.Card className="portfolioCard">

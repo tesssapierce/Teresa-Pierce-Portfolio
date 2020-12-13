@@ -7,7 +7,6 @@ import NoMatch from "./pages/NoMatch";
 import Navigation from "./components/Nav";
 import Contact from "./pages/Contact"
 import Photography from "./pages/Photography"
-import SimpleReactLightbox from "simple-react-lightbox";
 
 
 function App() {
