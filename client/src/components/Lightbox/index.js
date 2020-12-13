@@ -5,11 +5,11 @@ function Lightbox() {
   return (
     <div className="Lightbox">
       <SRLWrapper>
-        <a href="https://i.ytimg.com/vi/MPV2METPeJU/maxresdefault.jpg" data-attribute="SRL">
-          <img src="https://i.ytimg.com/vi/MPV2METPeJU/maxresdefault.jpg" alt="Umbrella" />
+        <a href="https://i.imgur.com/XDfWfb2.jpg" data-attribute="SRL">
+          <img src="https://i.imgur.com/XDfWfb2m.jpg" alt="Pepper" />
         </a>
-        <a href="https://www.nationalgeographic.com/content/dam/animals/thumbs/rights-exempt/mammals/d/domestic-dog_thumb.ngsversion.1546554600360.adapt.1900.1.jpg" data-attribute="SRL">
-          <img src="https://www.nationalgeographic.com/content/dam/animals/thumbs/rights-exempt/mammals/d/domestic-dog_thumb.ngsversion.1546554600360.adapt.1900.1.jpg" alt="Whatever" />
+        <a href="https://i.imgur.com/XDfWfb2.jpg" data-attribute="SRL">
+          <img src="https://i.imgur.com/XDfWfb2m.jpg" alt="Pepper" />
         </a>
       </SRLWrapper>
     </div>

@@ -16,13 +16,9 @@ function Photography() {
             <p>I specialize in children, newborns, and families, and also do many weddings and events.</p>
           </div>
         </div>
-        <div className="row">
-          <div className="col-12">
             <SimpleReactLightbox>
               <Lightbox />
             </SimpleReactLightbox>
-          </div>
-        </div>
       </div>
       <Footer />
     </>
