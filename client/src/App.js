@@ -6,6 +6,9 @@ import Splash from "./pages/Splash";
 import NoMatch from "./pages/NoMatch";
 import Navigation from "./components/Nav";
 import Contact from "./pages/Contact"
+import Photography from "./pages/Photography"
+import SimpleReactLightbox from "simple-react-lightbox";
+
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
           </Route>
           <Route exact path="/contact">
             <Contact />
+          </Route>
+          <Route exact path="/photography">
+            <Photography />
           </Route>
           <Route>
             <NoMatch />
