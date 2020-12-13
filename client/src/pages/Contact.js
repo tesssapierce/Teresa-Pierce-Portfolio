@@ -76,14 +76,6 @@ function Contact() {
             </form>
           </div>
           <div className="col-12 col-md-6 contactTop">
-            {/* <div className="contactImg">
-              <a className="iconLink" href="https://www.github.com/tesssapierce" rel="noopener noreferrer" target="_blank">
-                <FaGithub />
-              </a>
-              <a className="iconLink" href="https://www.linkedin.com/in/tesssapierce/" rel="noopener noreferrer" target="_blank">
-                <FaLinkedin />
-              </a>
-            </div> */}
             <Pdf />
           </div>
         </div>

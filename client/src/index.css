@@ -1,3 +1,19 @@
+/* ABOUT ME */
+
+.aboutBtns{
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.aboutText{
+  margin: auto 0;
+}
+
+.aboutHeader{
+  text-align: center;
+}
+
 /* CONTACT PAGE */
 
 .contactPage{
@@ -211,6 +227,12 @@
   .formText{
     height: 20rem;
     width: 20rem;
+  }
+
+  .aboutImgCont{
+    max-width: 50% !important;
+    margin: 0 auto;
+    padding: 20px;
   }
 }
 
